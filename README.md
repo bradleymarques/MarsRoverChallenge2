@@ -11,33 +11,56 @@ Application begins at main.cpp
 The application runs through test classes before deployment to validate functional and unit credibility per class.
 
 <h2> Classes to note </h2>
+
 - OverallControlAlgorithm
+
 - MarsTerrain
+
 - RoverAPI
+
 - RoverPowerStorage
+
 - RoverTimeActions
+
 Test Classes
--- TestMarsTerrain
--- TestOverallControlAlgorithm
--- TestRoverAPI
--- TestRoverPowerStorage
+
+- TestMarsTerrain
+
+- TestOverallControlAlgorithm
+
+- TestRoverAPI
+
+- TestRoverPowerStorage
+
 
 <h2> Notes on Time and Power of Rover </h2>
-All time constraints are calculated in seconds
-All power consumption is calculated in joules only (Jouoles per hour)
+- All time constraints are calculated in seconds
+- All power consumption is calculated in joules only (Jouoles per hour)
 
 <h2> Assumptions</h2>
 A few Assumptions were made based on the Challenge, These assumptions were then udated in the code accordingly
 
-Rover Deployed at 23:59.
-Rover deployed at the start of night.
-Sol day is calculated from begining of night to end of daylight
-At deployment: Rover is fully charged
-Rover is facing North
-Rover Camera is facing North
-Rover Solar panels are retracted on deployment
-Location and Terrain of Rover is Unknown (X and Y coordinates are just used for mapping purposes
-Algorithm caters for a 70% chance of uneven terrain when scanning
-Algorithm determines action based on random terrain to scan, rotate, survey, move and so forth
-Not all Sol days are surveying and scanning based on time and power constraints
-Hibernation function is to set rover on standstill not usinng power but waiting for next opportune time (Time Spent)
+- Rover Deployed at 23:59.
+
+- Rover deployed at the start of night.
+
+- Sol day is calculated from begining of night to end of daylight
+
+- At deployment: Rover is fully charged
+
+- Rover is facing North
+
+- Rover Camera is facing North
+
+- Rover Solar panels are retracted on deployment
+
+- Location and Terrain of Rover is Unknown (X and Y coordinates are just used for mapping purposes)
+
+- Algorithm caters for a 70% chance of uneven terrain when scanning
+
+- Algorithm determines action based on random terrain to scan, rotate, survey, move and so forth
+
+- Not all Sol days are surveying and scanning based on time and power constraints
+
+- Hibernation function is to set rover on standstill not usinng power but waiting for next opportune time (Time Spent)
+
