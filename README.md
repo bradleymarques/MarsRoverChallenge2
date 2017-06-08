@@ -64,3 +64,7 @@ A few Assumptions were made based on the Challenge, These assumptions were then 
 
 - Hibernation function is to set rover on standstill not usinng power but waiting for next opportune time (Time Spent)
 
+
+
+A release version (EXE) of the working application can be found on the deploy_release branch.
+Run the MarsRoverChallengeTwo.exe to simulate algorithm
